@@ -16,5 +16,10 @@ namespace SistemaLINQ
         {
             InitializeComponent();
         }
+
+        private void FrmEliminaUsuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -26,5 +26,17 @@ namespace SistemaLINQ
         {
             Application.Exit();
         }
+
+        private void FrmPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void agregarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAgregaUsuario frmAgrega = new FrmAgregaUsuario();
+            frmAgrega.Show();
+            this.Hide();
+        }
     }
 }

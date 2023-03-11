@@ -16,5 +16,15 @@ namespace SistemaLINQ
         {
             InitializeComponent();
         }
+
+        private void FrmModificaUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmModificaUsuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

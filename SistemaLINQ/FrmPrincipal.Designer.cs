@@ -89,6 +89,7 @@
             this.agregarUsuarioToolStripMenuItem.Name = "agregarUsuarioToolStripMenuItem";
             this.agregarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.agregarUsuarioToolStripMenuItem.Text = "Agregar Usuario";
+            this.agregarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.agregarUsuarioToolStripMenuItem_Click);
             // 
             // eliminarUsuarioToolStripMenuItem
             // 
@@ -117,6 +118,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmPrincipal";
             this.Text = "FrmPrincipal";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmPrincipal_FormClosed);
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
