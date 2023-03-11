@@ -19,7 +19,19 @@ namespace SistemaLINQ
 
         private void FrmEliminaUsuario_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            btnCerrar_Click(sender, e);
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal frmPrincipal = new FrmPrincipal();
+            frmPrincipal.Show();
+            this.Hide();
+        }
+
+        private void FrmEliminaUsuario_Load(object sender, EventArgs e)
+        {
+             
         }
     }
 }

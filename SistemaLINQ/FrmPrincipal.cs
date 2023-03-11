@@ -38,5 +38,12 @@ namespace SistemaLINQ
             frmAgrega.Show();
             this.Hide();
         }
+
+        private void eliminarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEliminaUsuario frmElimina = new FrmEliminaUsuario();
+            frmElimina.Show();
+            this.Hide();
+        }
     }
 }
