@@ -53,5 +53,17 @@ namespace SistemaLINQ
             cmbTipoUsuario.Text = "";
             cmbEstado.Text = "";
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            usuarios datos = new usuarios();
+            datos.usuario = txtUsuario.Text;
+            datos.passwd = txtPassword.Text;
+            datos.tipo_usuario = cmbTipoUsuario.SelectedItem.ToString();
+            datos.estado = cmbEstado.SelectedItem.ToString(); 
+            dataContext.usuarios.InsertOnSubmit(datos);
+            dataContext.SubmitChanges();
+            MessageBox.Show("Usuario agregado correctamente");
+        }
     }
 }
