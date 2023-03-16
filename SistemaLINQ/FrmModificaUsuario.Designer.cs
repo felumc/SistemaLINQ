@@ -52,6 +52,7 @@
             this.btnModificar.TabIndex = 32;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnCerrar
             // 
@@ -71,6 +72,7 @@
             this.btnLimpiar.TabIndex = 30;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // label4
             // 
@@ -162,6 +164,7 @@
             this.btnVer.TabIndex = 21;
             this.btnVer.Text = "Ver Datos Usuario";
             this.btnVer.UseVisualStyleBackColor = true;
+            this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
             // 
             // label1
             // 
