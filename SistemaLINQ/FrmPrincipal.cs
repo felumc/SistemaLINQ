@@ -45,5 +45,19 @@ namespace SistemaLINQ
             frmElimina.Show();
             this.Hide();
         }
+
+        private void modificarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmModificaUsuario frmModifica = new FrmModificaUsuario();
+            frmModifica.Show();
+            this.Hide();
+        }
+
+        private void listarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVerUsuarios frmVer = new FrmVerUsuarios();
+            frmVer.Show();
+            this.Hide();
+        }
     }
 }

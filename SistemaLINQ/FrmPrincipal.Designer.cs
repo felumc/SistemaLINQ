@@ -84,12 +84,14 @@
             this.modificarUsuarioToolStripMenuItem.Name = "modificarUsuarioToolStripMenuItem";
             this.modificarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.modificarUsuarioToolStripMenuItem.Text = "Modificar Usuario";
+            this.modificarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.modificarUsuarioToolStripMenuItem_Click);
             // 
             // listarUsuariosToolStripMenuItem
             // 
             this.listarUsuariosToolStripMenuItem.Name = "listarUsuariosToolStripMenuItem";
             this.listarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.listarUsuariosToolStripMenuItem.Text = "Listar Usuarios";
+            this.listarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.listarUsuariosToolStripMenuItem_Click);
             // 
             // trabajadoresToolStripMenuItem
             // 
