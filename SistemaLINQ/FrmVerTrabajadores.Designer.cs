@@ -40,7 +40,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1125, 364);
+            this.dataGridView1.Size = new System.Drawing.Size(1299, 364);
             this.dataGridView1.TabIndex = 0;
             // 
             // btnCerrar
@@ -57,7 +57,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1149, 467);
+            this.ClientSize = new System.Drawing.Size(1323, 467);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FrmVerTrabajadores";

@@ -113,6 +113,7 @@
             this.agregarTrabajadorToolStripMenuItem.Name = "agregarTrabajadorToolStripMenuItem";
             this.agregarTrabajadorToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.agregarTrabajadorToolStripMenuItem.Text = "Agregar Trabajador";
+            this.agregarTrabajadorToolStripMenuItem.Click += new System.EventHandler(this.agregarTrabajadorToolStripMenuItem_Click);
             // 
             // eliminarTrabajadorToolStripMenuItem
             // 
@@ -125,6 +126,7 @@
             this.modificarTrabajadorToolStripMenuItem.Name = "modificarTrabajadorToolStripMenuItem";
             this.modificarTrabajadorToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.modificarTrabajadorToolStripMenuItem.Text = "Modificar Trabajador";
+            this.modificarTrabajadorToolStripMenuItem.Click += new System.EventHandler(this.modificarTrabajadorToolStripMenuItem_Click);
             // 
             // listarTrabajadorToolStripMenuItem
             // 

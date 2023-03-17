@@ -66,5 +66,17 @@ namespace SistemaLINQ
             frmVerTrabajadores.Show();
             this.Hide();
         }
+
+        private void modificarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void agregarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAgregaTrabajador frmAgregaTrabajador = new FrmAgregaTrabajador();
+            frmAgregaTrabajador.Show();
+            this.Hide();
+        }
     }
 }
