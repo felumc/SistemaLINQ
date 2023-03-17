@@ -120,6 +120,7 @@
             this.eliminarTrabajadorToolStripMenuItem.Name = "eliminarTrabajadorToolStripMenuItem";
             this.eliminarTrabajadorToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.eliminarTrabajadorToolStripMenuItem.Text = "Eliminar Trabajador";
+            this.eliminarTrabajadorToolStripMenuItem.Click += new System.EventHandler(this.eliminarTrabajadorToolStripMenuItem_Click);
             // 
             // modificarTrabajadorToolStripMenuItem
             // 

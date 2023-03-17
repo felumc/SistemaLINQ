@@ -78,5 +78,12 @@ namespace SistemaLINQ
             frmAgregaTrabajador.Show();
             this.Hide();
         }
+
+        private void eliminarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEliminaTrabajador frmEliminaTrabajador = new FrmEliminaTrabajador();
+            frmEliminaTrabajador.Show();
+            this.Hide();
+        }
     }
 }

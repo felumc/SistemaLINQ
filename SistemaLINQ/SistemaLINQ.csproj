@@ -132,6 +132,12 @@
     <Compile Include="FrmAgregaUsuario.Designer.cs">
       <DependentUpon>FrmAgregaUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEliminaTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminaTrabajador.Designer.cs">
+      <DependentUpon>FrmEliminaTrabajador.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmEliminaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregaUsuario.resx">
       <DependentUpon>FrmAgregaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminaTrabajador.resx">
+      <DependentUpon>FrmEliminaTrabajador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEliminaUsuario.resx">
       <DependentUpon>FrmEliminaUsuario.cs</DependentUpon>
