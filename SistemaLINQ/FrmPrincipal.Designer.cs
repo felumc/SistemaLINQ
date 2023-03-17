@@ -35,6 +35,10 @@
             this.modificarUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trabajadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarTrabajadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarTrabajadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarTrabajadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listarTrabajadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -68,36 +72,66 @@
             // agregarUsuarioToolStripMenuItem
             // 
             this.agregarUsuarioToolStripMenuItem.Name = "agregarUsuarioToolStripMenuItem";
-            this.agregarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.agregarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.agregarUsuarioToolStripMenuItem.Text = "Agregar Usuario";
             this.agregarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.agregarUsuarioToolStripMenuItem_Click);
             // 
             // eliminarUsuarioToolStripMenuItem
             // 
             this.eliminarUsuarioToolStripMenuItem.Name = "eliminarUsuarioToolStripMenuItem";
-            this.eliminarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.eliminarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.eliminarUsuarioToolStripMenuItem.Text = "Eliminar Usuario";
             this.eliminarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.eliminarUsuarioToolStripMenuItem_Click);
             // 
             // modificarUsuarioToolStripMenuItem
             // 
             this.modificarUsuarioToolStripMenuItem.Name = "modificarUsuarioToolStripMenuItem";
-            this.modificarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.modificarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.modificarUsuarioToolStripMenuItem.Text = "Modificar Usuario";
             this.modificarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.modificarUsuarioToolStripMenuItem_Click);
             // 
             // listarUsuariosToolStripMenuItem
             // 
             this.listarUsuariosToolStripMenuItem.Name = "listarUsuariosToolStripMenuItem";
-            this.listarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.listarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.listarUsuariosToolStripMenuItem.Text = "Listar Usuarios";
             this.listarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.listarUsuariosToolStripMenuItem_Click);
             // 
             // trabajadoresToolStripMenuItem
             // 
+            this.trabajadoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarTrabajadorToolStripMenuItem,
+            this.eliminarTrabajadorToolStripMenuItem,
+            this.modificarTrabajadorToolStripMenuItem,
+            this.listarTrabajadorToolStripMenuItem});
             this.trabajadoresToolStripMenuItem.Name = "trabajadoresToolStripMenuItem";
             this.trabajadoresToolStripMenuItem.Size = new System.Drawing.Size(109, 24);
             this.trabajadoresToolStripMenuItem.Text = "Trabajadores";
+            // 
+            // agregarTrabajadorToolStripMenuItem
+            // 
+            this.agregarTrabajadorToolStripMenuItem.Name = "agregarTrabajadorToolStripMenuItem";
+            this.agregarTrabajadorToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.agregarTrabajadorToolStripMenuItem.Text = "Agregar Trabajador";
+            // 
+            // eliminarTrabajadorToolStripMenuItem
+            // 
+            this.eliminarTrabajadorToolStripMenuItem.Name = "eliminarTrabajadorToolStripMenuItem";
+            this.eliminarTrabajadorToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.eliminarTrabajadorToolStripMenuItem.Text = "Eliminar Trabajador";
+            // 
+            // modificarTrabajadorToolStripMenuItem
+            // 
+            this.modificarTrabajadorToolStripMenuItem.Name = "modificarTrabajadorToolStripMenuItem";
+            this.modificarTrabajadorToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.modificarTrabajadorToolStripMenuItem.Text = "Modificar Trabajador";
+            // 
+            // listarTrabajadorToolStripMenuItem
+            // 
+            this.listarTrabajadorToolStripMenuItem.Name = "listarTrabajadorToolStripMenuItem";
+            this.listarTrabajadorToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.listarTrabajadorToolStripMenuItem.Text = "Listar Trabajador";
+            this.listarTrabajadorToolStripMenuItem.Click += new System.EventHandler(this.listarTrabajadorToolStripMenuItem_Click);
             // 
             // pagosToolStripMenuItem
             // 
@@ -141,6 +175,10 @@
         private System.Windows.Forms.ToolStripMenuItem trabajadoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pagosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarTrabajadorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eliminarTrabajadorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarTrabajadorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listarTrabajadorToolStripMenuItem;
     }
 }
 

@@ -59,5 +59,12 @@ namespace SistemaLINQ
             frmVer.Show();
             this.Hide();
         }
+
+        private void listarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVerTrabajadores frmVerTrabajadores = new FrmVerTrabajadores();
+            frmVerTrabajadores.Show();
+            this.Hide();
+        }
     }
 }

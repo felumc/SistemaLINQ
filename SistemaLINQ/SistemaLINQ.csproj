@@ -120,6 +120,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FrmAgregaTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregaTrabajador.Designer.cs">
+      <DependentUpon>FrmAgregaTrabajador.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAgregaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,12 @@
     <Compile Include="FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVerTrabajadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerTrabajadores.Designer.cs">
+      <DependentUpon>FrmVerTrabajadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVerUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +164,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAgregaTrabajador.resx">
+      <DependentUpon>FrmAgregaTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregaUsuario.resx">
       <DependentUpon>FrmAgregaUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerTrabajadores.resx">
+      <DependentUpon>FrmVerTrabajadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVerUsuarios.resx">
       <DependentUpon>FrmVerUsuarios.cs</DependentUpon>
