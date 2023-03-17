@@ -144,6 +144,12 @@
     <Compile Include="FrmEliminaUsuario.Designer.cs">
       <DependentUpon>FrmEliminaUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmModificaTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificaTrabajador.Designer.cs">
+      <DependentUpon>FrmModificaTrabajador.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmModificaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEliminaUsuario.resx">
       <DependentUpon>FrmEliminaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificaTrabajador.resx">
+      <DependentUpon>FrmModificaTrabajador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModificaUsuario.resx">
       <DependentUpon>FrmModificaUsuario.cs</DependentUpon>

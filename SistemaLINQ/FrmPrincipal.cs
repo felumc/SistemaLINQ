@@ -69,7 +69,9 @@ namespace SistemaLINQ
 
         private void modificarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            FrmModificaTrabajador frmModificaTrabajador = new FrmModificaTrabajador();
+            frmModificaTrabajador.Show();
+            this.Hide();
         }
 
         private void agregarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
