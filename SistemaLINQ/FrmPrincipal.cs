@@ -87,5 +87,33 @@ namespace SistemaLINQ
             frmEliminaTrabajador.Show();
             this.Hide();
         }
+
+        private void eliminarSueldoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEliminaSueldo frmEliminaSueldo = new FrmEliminaSueldo();
+            frmEliminaSueldo.Show();
+            this.Hide();
+        }
+
+        private void agregarSueldoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAgregaSueldo frmAgregaSueldo = new FrmAgregaSueldo();
+            frmAgregaSueldo.Show();
+            this.Hide();
+        }
+
+        private void modificarSueldoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmModificaSueldo frmModificaSueldo = new FrmModificaSueldo();
+            frmModificaSueldo.Show();
+            this.Hide();
+        }
+
+        private void listarSueldoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVerSueldos frmVerSueldos = new FrmVerSueldos();
+            frmVerSueldos.Show();
+            this.Hide();
+        }
     }
 }

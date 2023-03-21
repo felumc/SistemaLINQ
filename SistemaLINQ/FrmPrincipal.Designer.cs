@@ -39,8 +39,12 @@
             this.eliminarTrabajadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarTrabajadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarTrabajadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sueldosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarSueldoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarSueldoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarSueldoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listarSueldoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +54,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usuariosToolStripMenuItem,
             this.trabajadoresToolStripMenuItem,
-            this.pagosToolStripMenuItem,
+            this.sueldosToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -136,18 +140,51 @@
             this.listarTrabajadorToolStripMenuItem.Text = "Listar Trabajador";
             this.listarTrabajadorToolStripMenuItem.Click += new System.EventHandler(this.listarTrabajadorToolStripMenuItem_Click);
             // 
-            // pagosToolStripMenuItem
-            // 
-            this.pagosToolStripMenuItem.Name = "pagosToolStripMenuItem";
-            this.pagosToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
-            this.pagosToolStripMenuItem.Text = "Pagos";
-            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // sueldosToolStripMenuItem
+            // 
+            this.sueldosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarSueldoToolStripMenuItem,
+            this.eliminarSueldoToolStripMenuItem,
+            this.modificarSueldoToolStripMenuItem,
+            this.listarSueldoToolStripMenuItem});
+            this.sueldosToolStripMenuItem.Name = "sueldosToolStripMenuItem";
+            this.sueldosToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.sueldosToolStripMenuItem.Text = "Sueldos";
+            // 
+            // agregarSueldoToolStripMenuItem
+            // 
+            this.agregarSueldoToolStripMenuItem.Name = "agregarSueldoToolStripMenuItem";
+            this.agregarSueldoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.agregarSueldoToolStripMenuItem.Text = "Agregar Sueldo";
+            this.agregarSueldoToolStripMenuItem.Click += new System.EventHandler(this.agregarSueldoToolStripMenuItem_Click);
+            // 
+            // modificarSueldoToolStripMenuItem
+            // 
+            this.modificarSueldoToolStripMenuItem.Name = "modificarSueldoToolStripMenuItem";
+            this.modificarSueldoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.modificarSueldoToolStripMenuItem.Text = "Modificar Sueldo";
+            this.modificarSueldoToolStripMenuItem.Click += new System.EventHandler(this.modificarSueldoToolStripMenuItem_Click);
+            // 
+            // eliminarSueldoToolStripMenuItem
+            // 
+            this.eliminarSueldoToolStripMenuItem.Name = "eliminarSueldoToolStripMenuItem";
+            this.eliminarSueldoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.eliminarSueldoToolStripMenuItem.Text = "Eliminar Sueldo";
+            this.eliminarSueldoToolStripMenuItem.Click += new System.EventHandler(this.eliminarSueldoToolStripMenuItem_Click);
+            // 
+            // listarSueldoToolStripMenuItem
+            // 
+            this.listarSueldoToolStripMenuItem.Name = "listarSueldoToolStripMenuItem";
+            this.listarSueldoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.listarSueldoToolStripMenuItem.Text = "Listar Sueldo";
+            this.listarSueldoToolStripMenuItem.Click += new System.EventHandler(this.listarSueldoToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
@@ -176,12 +213,16 @@
         private System.Windows.Forms.ToolStripMenuItem modificarUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listarUsuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trabajadoresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pagosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarTrabajadorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarTrabajadorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarTrabajadorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listarTrabajadorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sueldosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarSueldoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eliminarSueldoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarSueldoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listarSueldoToolStripMenuItem;
     }
 }
 

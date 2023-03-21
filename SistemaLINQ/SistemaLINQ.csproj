@@ -120,6 +120,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FrmAgregaSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregaSueldo.Designer.cs">
+      <DependentUpon>FrmAgregaSueldo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAgregaTrabajador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,12 @@
     <Compile Include="FrmAgregaUsuario.Designer.cs">
       <DependentUpon>FrmAgregaUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEliminaSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminaSueldo.Designer.cs">
+      <DependentUpon>FrmEliminaSueldo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmEliminaTrabajador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +155,12 @@
     </Compile>
     <Compile Include="FrmEliminaUsuario.Designer.cs">
       <DependentUpon>FrmEliminaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificaSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificaSueldo.Designer.cs">
+      <DependentUpon>FrmModificaSueldo.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmModificaTrabajador.cs">
       <SubType>Form</SubType>
@@ -161,6 +179,12 @@
     </Compile>
     <Compile Include="FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerSueldos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerSueldos.Designer.cs">
+      <DependentUpon>FrmVerSueldos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmVerTrabajadores.cs">
       <SubType>Form</SubType>
@@ -181,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregaUsuario.resx">
       <DependentUpon>FrmAgregaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminaSueldo.resx">
+      <DependentUpon>FrmEliminaSueldo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEliminaTrabajador.resx">
       <DependentUpon>FrmEliminaTrabajador.cs</DependentUpon>
