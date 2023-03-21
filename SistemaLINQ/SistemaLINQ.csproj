@@ -218,6 +218,9 @@
     <EmbeddedResource Include="FrmEliminaUsuario.resx">
       <DependentUpon>FrmEliminaUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificaSueldo.resx">
+      <DependentUpon>FrmModificaSueldo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmModificaTrabajador.resx">
       <DependentUpon>FrmModificaTrabajador.cs</DependentUpon>
     </EmbeddedResource>
